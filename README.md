@@ -18,7 +18,7 @@ sammulstudio.com에 GitHub Pages로 게시하는 샘물스튜디오 웹사이트
 
 Honey Bloom 페이지와 `assets/`는 2026-11-23에 [jo-minjun/jo-minjun.github.io](https://github.com/jo-minjun/jo-minjun.github.io)의 `docs/`에서 옮겼다. 그 저장소의 `docs/honey-bloom/`에는 이 사이트의 같은 경로로 보내는 넘김 페이지만 남아 있다. 디자인 기준은 그 저장소의 `DESIGN.md`에 있다. 두 저장소의 `site.css`는 따로 관리하므로, 한쪽을 고쳐도 다른 쪽은 바뀌지 않는다.
 
-언어 폴더가 없는 주소(`/honey-bloom/`, `/honey-bloom/privacy/` 등)는 `assets/lang.js`가 `ko/` 또는 `en/`으로 보내는 언어 이동 페이지다. 두 언어 파일은 같은 내용을 담는다. 한쪽을 고치면 다른 쪽도 함께 고친다.
+언어 폴더가 없는 주소(`/honey-bloom/`, `/honey-bloom/privacy/` 등)는 `assets/lang.js`가 `ko/` 또는 `en/`으로 보내는 언어 이동 페이지다. 두 언어 파일은 같은 내용을 담는다. 한쪽을 고치면 다른 쪽도 함께 고친다. 한국어 본문은 `~다`체로 쓰고, 지원 페이지의 자주 묻는 질문 답변만 `~습니다`체로 쓴다.
 
 ## 주소를 바꾸면 안 되는 파일
 
