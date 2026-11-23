@@ -45,7 +45,7 @@ Honey Bloom 페이지와 `assets/`는 2026-11-23에 [jo-minjun/jo-minjun.github.
 
 Honey Bloom이 새 정보를 수집·저장·전송하거나 새 알림·권한을 쓰면 `honey-bloom/privacy/ko/index.html`과 `honey-bloom/privacy/en/index.html`을 함께 고치고, 두 파일의 시행일도 바꾼다.
 
-Honey Bloom 문서의 운영자는 "샘물스튜디오(운영자 조민준)"로 쓰고, 개인정보 보호책임자는 조민준으로 쓴다. 계약과 개인정보 처리의 법적 주체를 밝히려고 개인 이름을 함께 쓴다. 샘물스튜디오를 사업자등록하면 상호, 대표자, 사업자등록번호 등 표시 사항을 다시 확인한다.
+Honey Bloom 문서의 운영자는 "샘물스튜디오(대표 조민준)"("Sammul Studio (representative: Jo Minjun)")로 쓰고, 개인정보 보호책임자는 "샘물스튜디오 대표 조민준"("Jo Minjun, Representative of Sammul Studio")으로 쓴다.
 
 문의 이메일은 `support@sammulstudio.com`이다. 개인정보처리방침, 이용약관, 지원 페이지(각 한국어·영어)에 있다. 주소를 바꾸면 이 6개 파일, Honey Bloom 앱 코드, App Store Connect와 Play Console의 연락처를 함께 고친다.
 
