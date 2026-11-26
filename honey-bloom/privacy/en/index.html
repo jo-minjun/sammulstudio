@@ -30,7 +30,7 @@
 
 <main class="doc">
 <h1>Honey Bloom Privacy Policy</h1>
-<p class="meta">Effective date: November 23, 2026 (previous version: November 7, 2026)</p>
+<p class="meta">Effective date: November 27, 2026 (previous version: November 23, 2026)</p>
 
 <p>Honey Bloom (the "App") is a mobile puzzle game by Sammul Studio (representative: Jo Minjun; the "Developer"). This policy tells you which data the App uses, where the App keeps it, and how the App uses it.</p>
 
@@ -78,7 +78,7 @@
 </ul>
 <p>Google processes this data under its own policies. The Developer does not receive or keep this data. For more information, see <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>4. App analytics and error reporting (Google Firebase)</h2>
+<h2>4. App analytics, error reporting and ad measurement (Google Firebase, Meta)</h2>
 <p>Copies of the App installed from the stores or from test distribution send the data below to Google Firebase. The Developer uses this data to tune game difficulty, fix errors and adjust how often ads appear.</p>
 <table>
   <tr><th>Data</th><th>Purpose</th></tr>
@@ -93,6 +93,19 @@
   <li>For users in the EEA, the UK or Switzerland, the choice on the consent screen also applies to Firebase analytics (see section 8). If you do not consent, Google consent mode treats analytics storage as denied.</li>
 </ul>
 <p>Google processes this data under the Firebase terms and Google's policies. For more information, see <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.</p>
+<p>Copies of the iOS App installed from the stores or from test distribution send the data below to Meta Platforms, Inc. through the Meta SDK, to measure the app install ads the Developer runs on Meta (Facebook). The Android App does not send data to Meta.</p>
+<table>
+  <tr><th>Data</th><th>Purpose</th></tr>
+  <tr><td>App events: app launches (Meta counts the first launch on a device as the install), levels achieved with the level number, and in-app purchases with the product, price and currency</td><td>To measure how many users installed the App from Meta ads, and their play and purchases</td></tr>
+  <tr><td>Device data: device model, operating system version, app version, language, time zone, mobile carrier, screen size, an anonymous ID the Meta SDK creates on the device, and your IP address</td><td>To measure ad performance and to group the events of one device</td></tr>
+  <tr><td>Device advertising identifier: the iOS IDFA (only if you allow tracking)</td><td>To measure ad performance</td></tr>
+</table>
+<ul>
+  <li>The App sends nothing to Meta before the consent check in section 8 has finished. The App does not send data to Meta from users in regions that need consent management, such as the EEA, the UK or Switzerland.</li>
+  <li>If you do not allow tracking, the App sends the app events and device data above without the device advertising identifier, marked as not allowing tracking. Meta uses the events of iOS users who do not allow tracking for Aggregated Event Measurement (Meta's way of measuring ad performance over groups of users).</li>
+  <li>The App does not send your anonymous account ID, short account ID, nickname, email address or game save contents to Meta. Because of this, the records sent to Meta are not linked to the account in section 2.</li>
+</ul>
+<p>Meta processes this data under Meta's policies. For more information, see the <a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>.</p>
 
 <h2>5. Retention and deletion</h2>
 <p>The Developer keeps the account data, progress backup, currency ledger and league records in section 2 while your account exists. League records are kept after a season ends, to show the rankings of past seasons.</p>
@@ -120,12 +133,14 @@
   <li>Analytics event records: 2 months. User-level analytics records: 14 months after the last activity</li>
   <li>Crash and error records: 90 days</li>
 </ul>
+<p>Data sent to Meta (section 4) is not linked to your account either, so Reset all data in the App does not delete it. Its retention follows Meta's policies.</p>
 
 <h2>6. Processors and international transfers</h2>
 <table>
   <tr><th>Recipient</th><th>Details</th></tr>
   <tr><td>Google LLC (USA)<br>(<a href="https://support.google.com/policies/contact/general_privacy_form">contact form</a>)</td><td>Processor: through Firebase (Cloud Firestore, Cloud Functions, Firebase Authentication), Google operates the account, progress backup, currency ledger and league server and stores its data. Data: the data in section 2 and connection records. Location: Cloud Firestore data is stored in the Seoul, South Korea region (asia-northeast3), and authentication account data can be stored on Google servers in the USA and other countries. Retention: the same as section 5.</td></tr>
   <tr><td>Google LLC (USA)<br>(<a href="https://support.google.com/policies/contact/general_privacy_form">contact form</a>)</td><td>International transfer: Google requests, shows and measures ads. Through Firebase, Google also processes app analytics, error reporting and the delivery of ad conditions. Data: the ad-related data in section 3 and the Firebase data in section 4. The App sends this data over the internet to Google servers (in the USA and other countries) with each ad request and while you use the App. Retention: Google's policies for ad data, and section 5 for Firebase data. To refuse personalized ads, decline tracking on iOS or delete your Android advertising ID. If you do not want the App to send ad data at all, do not use the App.</td></tr>
+  <tr><td>Meta Platforms, Inc. (USA)<br>(<a href="https://www.facebook.com/privacy/policy/">Meta Privacy Policy</a>)</td><td>International transfer (iOS): Meta measures the app install ads the Developer runs on Meta. Data: the Meta data in section 4. The App sends this data over the internet to Meta servers (in the USA and other countries) while you use the App. Retention: Meta's policies. To stop the App from sending the device advertising identifier, decline tracking on iOS. If you do not want the App to send this data at all, do not use the iOS App.</td></tr>
   <tr><td>Apple Inc. (USA)</td><td>Provision to a third party (iOS, only if you agreed): when you request a refund and Apple asks for review data, the server sends Apple whether the purchase was delivered and how much of it you used. The purpose is Apple's refund review. The App asks for your consent right before the account's first purchase, and you can buy without agreeing. You can withdraw your consent at any time in Settings &gt; Share Refund Review Data. If you did not agree, withdrew your consent or deleted your account, the server does not send this data. Retention: Apple's policies.</td></tr>
 </table>
 
@@ -141,7 +156,7 @@
 <h2>8. Consent and choices (including personalized ads)</h2>
 <ul>
   <li>When users in the EEA, the UK or Switzerland start the App for the first time, the App shows Google's consent screen. This choice applies to both ads and Firebase analytics. You can change your consent at any time in the App under Settings &gt; Privacy settings.</li>
-  <li>On iOS, the App asks if you allow tracking. If you do not allow tracking, you can still play and get ad rewards in the same way. If you do not allow tracking, you see non-personalized ads. You can change this choice in Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
+  <li>On iOS, the App asks if you allow tracking. If you do not allow tracking, you can still play and get ad rewards in the same way. If you do not allow tracking, you see non-personalized ads, and the App does not send the device advertising identifier to Meta (see section 4). You can change this choice in Settings &gt; Privacy &amp; Security &gt; Tracking.</li>
   <li>On Android, you can reset or delete your advertising ID in device settings.</li>
   <li>You can delete your account and server data yourself in the App under Settings &gt; Reset all data (see section 5).</li>
   <li>You can also ask by email to see, correct, delete or stop the processing of the data in section 2. Send the short account ID shown at the bottom of Settings to the contact in section 11. The Developer checks the request, completes it within 10 days and tells you the result.</li>
